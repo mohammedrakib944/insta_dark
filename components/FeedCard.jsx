@@ -17,6 +17,7 @@ const FeedCard = (props) => {
               <div className="w-full h-full p-[2px] bg-slate-700 rounded-full">
                 <Image
                   className="rounded-full"
+                  alt="rakib"
                   src={dp}
                   width="100%"
                   height="100%"

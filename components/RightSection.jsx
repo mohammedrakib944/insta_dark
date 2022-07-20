@@ -44,6 +44,7 @@ const RightSection = () => {
                 width="100%"
                 height="100%"
                 objectFit="cover"
+                alt="rakib"
               />
             </div>
           </div>
@@ -75,7 +76,10 @@ const RightSection = () => {
         <div>
           {/* card */}
           {suggsationsData.map((data) => (
-            <div className="flex items-center justify-between mt-3">
+            <div
+              className="flex items-center justify-between mt-3"
+              key={data.id}
+            >
               <div className="flex items-center gap-4">
                 <div className="flex items-center p-[2px] w-[45px] h-[45px]">
                   <div className="w-full h-full p-[2px] bg-slate-700 rounded-full">
@@ -85,6 +89,7 @@ const RightSection = () => {
                       width="100%"
                       height="100%"
                       objectFit="cover"
+                      alt="rakib"
                     />
                   </div>
                 </div>
