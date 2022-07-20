@@ -3,8 +3,6 @@ import { BiHeart, BiMessageRounded, BiBookmark } from "react-icons/bi";
 import { VscSmiley } from "react-icons/vsc";
 import Image from "next/image";
 
-import img5 from "../public/assets/5.jpg";
-
 const FeedCard = (props) => {
   const { dp, name, from, likes, comments, time } = props.data;
   return (
@@ -37,7 +35,7 @@ const FeedCard = (props) => {
 
         {/* image */}
         <div className="w-full max-h-[550px] overflow-hidden bg-black my-3 relative">
-          <Image src={dp} layout="responsive" objectFit="contain" />
+          <Image src={dp} alt="rakib" layout="responsive" objectFit="contain" />
         </div>
 
         {/* reactions */}

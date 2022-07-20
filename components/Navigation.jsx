@@ -8,6 +8,8 @@ import { BsPlusCircle } from "react-icons/bs";
 import { FaRegCompass } from "react-icons/fa";
 import { TiHome } from "react-icons/ti";
 
+import img1 from "../public/assets/1.jpg";
+
 const Navigation = () => {
   const links = [
     {
@@ -63,11 +65,11 @@ const Navigation = () => {
               <a className="border border-slate-100 just-center rounded-full p-[1px]">
                 <Image
                   className="rounded-full"
-                  src="/../public/assets/1.jpg"
+                  src={img1}
                   width="30px"
                   height="30px"
                   objectFit="cover"
-                  alt=""
+                  alt="rakib"
                 />
               </a>
             </Link>
