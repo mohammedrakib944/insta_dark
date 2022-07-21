@@ -37,7 +37,7 @@ const Navigation = () => {
   return (
     <div className="w-full h-[60px] fixed bg-slate-800 border-b border-slate-700 z-50">
       <div className="wrapper mx-auto h-full grid grid-cols-11">
-        <h1 className="col-span-4 pl-4 font-logoFont flex items-center text-3xl text-slate-100 -mt-2 cursor-pointer">
+        <h1 className="col-span-4 pl-4 font-logoFont flex items-center text-3xl text-slate-100 -mt-1 cursor-pointer">
           Instagram
         </h1>
 

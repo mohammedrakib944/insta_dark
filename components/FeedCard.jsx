@@ -6,7 +6,7 @@ import Image from "next/image";
 const FeedCard = (props) => {
   const { dp, name, from, likes, comments, time } = props.data;
   return (
-    <div className="w-full py-3 mb-4 bg-slate-800 md:rounded-lg md:border border-slate-700 overflow-hidden">
+    <div className="w-full py-3 mb-4 md:bg-slate-800 md:rounded-lg md:border border-slate-700 overflow-hidden">
       <div className="w-full">
         {/* header */}
         <div className="flex items-center justify-between px-3">
