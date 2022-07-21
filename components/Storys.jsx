@@ -28,8 +28,8 @@ const Storys = () => {
   return (
     <div className="w-full p-4 md:my-4 bg-transparent md:bg-slate-800 rounded-lg md:border border-slate-700 flex items-center gap-4 overflow-x-auto scrollbar-hide">
       {story.map((data, index) => (
-        <Link href={data.url}>
-          <div className="w-[64px] text-center cursor-pointer" key={index}>
+        <Link href={data.url} key={index}>
+          <div className="w-[64px] text-center cursor-pointer">
             {/* image */}
             <div className="flex mx-auto items-center p-[2px] w-[60px] h-[60px] image-border">
               <div className="w-full h-full p-[2px] bg-slate-700 rounded-full">
